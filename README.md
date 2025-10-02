@@ -38,6 +38,7 @@ Go to the directory where you will be creating your project.
 To ensure Poetry creates the virtual environment inside the project folder, run:
 ```bash
 poetry config virtualenvs.in-project true
+poetry new life_in_weeks --name project
 ```
 
 ## Step 3: Install Dependencies
